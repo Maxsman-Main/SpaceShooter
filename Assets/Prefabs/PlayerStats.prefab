@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2708741389000232956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2708741389000232953}
+  - component: {fileID: 2708741389000232958}
+  - component: {fileID: 2708741389000232959}
+  m_Layer: 0
+  m_Name: PlayerStats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2708741389000232953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708741389000232956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 589.2453, y: 281.94656, z: -36.557823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2708741389000232958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708741389000232956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7064b78fcd9894f4da50d585aa323e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
+  fuel: 0
+  health: 100
+--- !u!114 &2708741389000232959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708741389000232956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 584a14d6ef667b64298320752fb09310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyPlace: {fileID: 8598436732751434880, guid: 4fd6f16a602d49e43844025b7c8e8bb2, type: 3}
+  fuelPlace: {fileID: 652247161352789955, guid: f7a333289891cda48968b016aafef8e9, type: 3}
+  healthPlace: {fileID: 4856055264603336606, guid: 80ad1f94028c20145ac1fbc20c6165d2, type: 3}
+  player: {fileID: 2708741389000232958}
